@@ -64,17 +64,17 @@
 
 ```mermaid
 graph TD
-    subgraph Client [クライアントサイド (フロントエンド)]
-        React[React SPA / Material-UI]
+    subgraph Client ["クライアントサイド (フロントエンド)"]
+        React["React SPA / Material-UI"]
     end
 
-    subgraph Server [サーバーサイド (バックエンド)]
-        Django[Django / Django REST Framework]
-        SQLite[(SQLite DB)]
+    subgraph Server ["サーバーサイド (バックエンド)"]
+        Django["Django / Django REST Framework"]
+        SQLite[("SQLite DB")]
     end
 
-    subgraph External [外部サービス]
-        Spotify[Spotify Web API]
+    subgraph External ["外部サービス"]
+        Spotify["Spotify Web API"]
     end
 
     %% 通信フロー
